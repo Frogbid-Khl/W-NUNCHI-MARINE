@@ -50,9 +50,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap");
 /* 1. Theme default css */
 body {
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
-  line-height: 30px;
+  font-family: "latto", sans-serif;
+  font-size: 16px;
+  line-height: 0px;
   font-weight: 400;
   font-style: normal;
   color: #777c90;
@@ -122,7 +122,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Inter", sans-serif;
+  font-family: "latto", sans-serif;
   color: #181818;
   line-height: 1.4;
   font-style: normal;
@@ -170,16 +170,17 @@ h6 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
-  font-family: "Inter", sans-serif;
+  line-height: 25px;
+  font-family: "latto", sans-serif;
   color: #777c90;
-  margin-bottom: 15px;
+  margin-bottom: 1px;
+  letter-spacing: unset;
 }
 
 hr {
-  border-bottom: 1px solid rgab(white, 0.1);
+  border-bottom: 1px solid rgb(white, 0.1);
   border-top: 0 none;
   margin: 30px 0;
   padding: 0;
@@ -446,7 +447,7 @@ label {
 }
 
 .logo-area img {
-  max-width: 100%;
+  max-width: 230%;
 }
 .logo-area .front {
   display: inline-block;
@@ -522,9 +523,9 @@ label {
   color: #181818;
 }
 .main-menu ul li a {
-  color: white;
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
+  color: #5D823B;
+  font-family: "latto", sans-serif;
+  font-size: 15px;
   text-transform: uppercase;
   font-weight: 500;
   line-height: 1;
@@ -539,7 +540,7 @@ label {
   }
 }
 .main-menu ul li a::before {
-  content: "\F282";
+  content: "";
   font-family: "bootstrap-icons";
   font-weight: 700;
   position: absolute;
@@ -637,7 +638,7 @@ label {
 
 .sticky-menu {
   position: fixed;
-  background: #181818;
+  background: #ffffff;
   top: 0;
   animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
@@ -694,7 +695,7 @@ label {
 .theme-menu-one .quote__btn {
   position: relative;
   z-index: 1;
-  margin-right: 50px;
+  margin-right: 0px;
 }
 .theme-menu-one .quote__btn::before {
   content: "";
@@ -2424,14 +2425,15 @@ a.meanmenu-reveal {
 	-theme-btn
 ----------------------------------------*/
 .ht_btn {
+  border-radius: 2rem ;
   overflow: hidden;
   color: white;
-  background: #e8112b;
-  font-size: 16px;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  line-height: 16px;
-  padding: 22px 33px;
+  background: #5D823B;
+  font-size: 15px;
+  font-family: "latto", sans-serif;
+  font-weight: 500;
+  line-height: 8px;
+  padding: 20px 20px;
   display: inline-block;
   text-align: center;
   position: relative;
@@ -2559,6 +2561,7 @@ a.meanmenu-reveal {
 .section__title__main {
   font-size: 48px;
   line-height: 1.2;
+  color:  #5D823B;
 }
 .section__title__main span {
   color: #f7c600;
@@ -2692,11 +2695,11 @@ a.meanmenu-reveal {
   content: "";
   position: absolute;
   z-index: -1;
-  background: linear-gradient(133deg, #181818 0%, rgba(24, 24, 24, 0.3) 100%);
+ /* background: linear-gradient(133deg, #181818 0%, rgba(24, 24, 24, 0.3) 100%);*/
   background: -moz-linear-gradient(133deg, #181818 0%, rgba(24, 24, 24, 0.3) 100%);
   background: -ms-linear-gradient(133deg, #181818 0%, rgba(24, 24, 24, 0.3) 100%);
   background: -o-linear-gradient(133deg, #181818 0%, rgba(24, 24, 24, 0.3) 100%);
-  background: -webkit-linear-gradient(133deg, #181818 0%, rgba(24, 24, 24, 0.3) 100%);
+/*  background: -webkit-linear-gradient(133deg, #181818 0%, rgba(24, 24, 24, 0.3) 100%);*/
   left: 0;
   top: 0;
   width: 100%;
@@ -2761,10 +2764,13 @@ a.meanmenu-reveal {
     font-size: 20px;
   }
 }
-
+.bntitle
+{
+  color: #5D823B;
+}
 .banner__main__title {
   font-size: 96px;
-  color: white;
+  color: #5D823B;
   line-height: 1.2;
 }
 .banner__main__title span {
@@ -6931,7 +6937,7 @@ input[type="checkbox"] {
   color: #e8112b !important;
 }
 .footer__widget .social_media a {
-  color: #f7c600;
+  color: #5D823B;
   background: rgba(247, 198, 0, 0.1);
   width: 50px;
   height: 50px;
@@ -6941,7 +6947,7 @@ input[type="checkbox"] {
 }
 .footer__widget .social_media a:hover {
   color: white;
-  background: #f7c600;
+  background: #fd4d68;
 }
 
 .ht-footer-subscribe-form input {
