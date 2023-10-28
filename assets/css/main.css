@@ -161,7 +161,7 @@ h5 {
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .list-none {
@@ -2650,6 +2650,7 @@ a.meanmenu-reveal {
 }
 
 .theme__main__banner {
+  margin-top: 6rem;
   position: relative;
   z-index: 1;
 }
@@ -7189,6 +7190,10 @@ input[type="checkbox"] {
 }
 .footer__section__three .copyright__area {
   border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-item{
+  padding: 15px 0;
 }
 
 /*# sourceMappingURL=main.css.map */
